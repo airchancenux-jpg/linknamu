@@ -5,7 +5,7 @@ import LinkCard from "@/components/LinkCard";
 const profile = {
   name: "이종수",
   bio: "마운자로도 이기는 무적 종수",
-  imageUrl: "/profile.png",
+  imageUrl: "/profile.jpg",
 };
 
 // 임시 링크 데이터 (추후 DB에서 가져오기)
@@ -28,7 +28,7 @@ export default function Home() {
               alt={`${profile.name} 프로필 사진`}
               width={96}
               height={96}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-top"
               priority
             />
           </div>
